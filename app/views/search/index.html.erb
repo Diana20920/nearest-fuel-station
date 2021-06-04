@@ -1,0 +1,14 @@
+<h2>The closest electric fuel station to you is: <%= @electric_station.name %></h2>
+<p>Address: <%= @electric_station.address %></p>
+<p>Fuel Type: <%= @electric_station.fuel_type %></p>
+<p>Access Times: <%= @electric_station.access_times %></p>
+
+<h2>Directions</h2>
+<p>Distance to this station: <%= @directions.distance %> </p>
+
+<p>Travel time: <%= @directions.travel_time %></p>
+
+<p>Direction Instructions:</p><br>
+  <% @directions.narrated.each do |direction| %>
+    <p><%= direction %></p><br>
+  <% end %>
