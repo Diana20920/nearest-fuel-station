@@ -1,5 +1,7 @@
 # Nearest Fuel Station
 
+This is an exercise originally provided by Turing School of Software & Design. The current progress is **not** refactored and requires improvements to the test as well as the controller. 
+
 ### Versions
 
 Ruby 2.5.3
